@@ -8,7 +8,7 @@ get_queue = {}
 
 API_ID = int(getenv("API_ID", "12538418")) 
 API_HASH = getenv("API_HASH", "d3ff047ed516f4f1c587f9cbed3fae39")
-ASS_HANDLER = list(getenv("ASS_HANDLER"? "!").split())
+ASS_HANDLER = list(getenv("ASS_HANDLER", ".").split())
 BOT_TOKEN = getenv("BOT_TOKEN", "5684425350:AAElOZGbh5de0Eesrfe8ZQHAlR8MvqM86mo")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "900"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001538500204"))
